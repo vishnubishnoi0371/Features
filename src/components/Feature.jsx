@@ -23,7 +23,7 @@ const Feature = () => {
         <p className="fs-sm fw-normal ff-sans off-gray lh-25 text-center mb-md-5">
           Your path to wellness, Tailored down to your DNA
         </p>
-        <div className="overflow-x-auto overflow-x-scroll ">
+        <div className="overflow-x-auto custom_scrollbar mt-2 overflow-x-scroll ">
           <div className="d-flex align-items-center justify-content-center pt-2 mt-1 w-1000   tabs_gap">
             <a
               onClick={() => handleTabClick("tab1")}
