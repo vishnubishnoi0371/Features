@@ -64,7 +64,7 @@ const Feature = () => {
         <div className="row align-items-center justify-content-between pt-4 py-md-5">
           <div className="col-lg-7 position-relative z-3">
             {activeTab === "tab1" && (
-              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-content-center">
+              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-items-center">
                 <h1 className="fs-xl text-center text-md-start fw-bold ff-roboto lh-76 text-black mb-md-3 mb-2">
                   DNA-customized nutrition
                 </h1>
@@ -101,7 +101,7 @@ const Feature = () => {
               </div>
             )}
             {activeTab === "tab2" && (
-              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-content-center">
+              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-items-center">
                 <h1 className="fs-xl text-center text-md-start fw-bold ff-roboto lh-76 text-black mb-md-3 mb-2">
                   Fitness that fits you{" "}
                 </h1>
@@ -138,7 +138,7 @@ const Feature = () => {
               </div>
             )}
             {activeTab === "tab3" && (
-              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-content-center">
+              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-items-center">
                 <h1 className="fs-xl text-center text-md-start fw-bold ff-roboto lh-76 text-black mb-md-3 mb-2">
                   Mind matters{" "}
                 </h1>
@@ -176,7 +176,7 @@ const Feature = () => {
               </div>
             )}
             {activeTab === "tab4" && (
-              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-content-center">
+              <div className="d-flex flex-column justify-content-center justify-content-lg-start align-items-center">
                 <h1 className="fs-xl text-center text-md-start fw-bold ff-roboto lh-76 text-black mb-md-3 mb-2">
                   Wellness, tracked and tailored{" "}
                 </h1>
